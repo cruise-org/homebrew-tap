@@ -4,7 +4,7 @@ cask "cruise" do
   desc "Cruise is a powerful, intuitive, and fully-featured container management TUI (Terminal
 User Interface)"
   homepage "https://cruise-org.github.io"
-  version "1.2.0-rc3"
+  version "1.2.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -16,12 +16,12 @@ User Interface)"
     on_intel do
       url "https://github.com/cruise-org/cruise/releases/download/v#{version}/cruise_Darwin_x86_64.tar.gz",
         verified: "github.com/cruise-org/cruise"
-      sha256 "37ccb0e4ef02103963013bce710c4f90f4c8ac6e6b8b2393f974098e9b7afa9e"
+      sha256 "ab51cd04c763fb82d953ca4d08c9b71ec86f6588bed91466d6d740da54422ab4"
     end
     on_arm do
       url "https://github.com/cruise-org/cruise/releases/download/v#{version}/cruise_Darwin_arm64.tar.gz",
         verified: "github.com/cruise-org/cruise"
-      sha256 "160eff7ca8d6ad64b271f79dba4443751595f961dacb6aca7a15d28752aefb5c"
+      sha256 "d8e8d6d68ecc10955d80b1c128393fff9ed9068a9f8a85362e8f25684e27e3b1"
     end
   end
 
@@ -29,12 +29,12 @@ User Interface)"
     on_intel do
       url "https://github.com/cruise-org/cruise/releases/download/v#{version}/cruise_Linux_x86_64.tar.gz",
         verified: "github.com/cruise-org/cruise"
-      sha256 "341ad0be03a20dd26b6834641e475c57f9ced4bf5666c9fe7653fbd3fa948064"
+      sha256 "739af948c57b57d12d8cfb444c55b6db95c7a0d5b5d29a728cf0f6b632621b6f"
     end
     on_arm do
       url "https://github.com/cruise-org/cruise/releases/download/v#{version}/cruise_Linux_arm64.tar.gz",
         verified: "github.com/cruise-org/cruise"
-      sha256 "a8e27c977ccba86de97fafd921270f404fa35e62ab6aea76332a6c96a2ec29c8"
+      sha256 "3c18f8e61ca4571a8edce29d83c72f0f988bf91cb73d803e08db2a0c5526b4d0"
     end
   end
 
